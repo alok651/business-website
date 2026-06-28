@@ -9,6 +9,12 @@ const featuredProperties = [
 
 const carouselSlides = [
   {
+    id: 0,
+    title: 'Find Your Dream Home',
+    desc: 'Looking to purchase a new property? We offer complete solutions for buying, selling, and renting properties in Patna.',
+    img: '/images/buying_house.gif'
+  },
+  {
     id: 1,
     title: 'Welcome to OM SAI To-Let Services',
     desc: 'Your trusted rental partner in Patna. Rents starting at: Khagaul (₹5k+), Saguna More (₹6k+), Raza Bazar (₹5k+), Boring Rd (₹8k+).',
@@ -128,6 +134,26 @@ export default function Home() {
                   />
                 ))}
               </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Home Purchase Animation Section */}
+      <section className="section" style={{ background: 'var(--bg-card)' }}>
+        <div className="container">
+          <div className="about-founder-grid">
+            <div className="founder-info-content">
+              <div className="founder-badge">🏡 New Service</div>
+              <h2>Buy Your <span className="highlight">Dream Home</span></h2>
+              <div className="founder-exp">Looking to purchase a property in Patna?</div>
+              <p>We are now offering complete end-to-end assistance for home buyers. From finding the perfect flat or independent house to handling legal paperwork, OM SAI To-Let Services makes buying property hassle-free.</p>
+              <div className="cta-actions" style={{ justifyContent: 'flex-start', marginTop: '24px' }}>
+                <Link to="/contact" className="btn btn-accent">Contact Our Agents</Link>
+              </div>
+            </div>
+            <div className="founder-img-container" style={{ border: 'none', boxShadow: 'none', background: 'transparent' }}>
+              <img src="/images/buying_house.gif" alt="Home Purchase Animation" style={{ width: '100%', height: 'auto', borderRadius: 'var(--radius)', mixBlendMode: 'screen' }} />
             </div>
           </div>
         </div>
