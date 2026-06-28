@@ -371,18 +371,36 @@ h1,h2,h3,h4,h5,h6{font-family:var(--font-primary);font-weight:700;line-height:1.
 
 @media(max-width: 768px) {
   .hero-carousel {
-    height: 380px;
+    height: 280px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+    border-radius: 12px;
   }
   .carousel-content {
-    bottom: 24px;
-    left: 20px;
-    right: 20px;
+    bottom: 16px;
+    left: 16px;
+    right: 16px;
   }
   .carousel-content h3 {
-    font-size: 1.4rem;
+    font-size: 1.15rem;
+    margin-bottom: 4px;
   }
   .carousel-content p {
-    font-size: 0.85rem;
+    font-size: 0.8rem;
+    line-height: 1.3;
+  }
+  .carousel-btn {
+    width: 32px;
+    height: 32px;
+  }
+  .carousel-btn.prev {
+    left: 8px;
+  }
+  .carousel-btn.next {
+    right: 8px;
+  }
+  .hero-visual {
+    width: 100%;
+    margin-top: 20px;
   }
 }
 
