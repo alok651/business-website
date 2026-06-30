@@ -33,7 +33,7 @@ export default function Contact() {
           <h1 className="section-title" style={{ fontSize: 'clamp(2.2rem,4vw,3.2rem)' }}>Get In <span style={{ color: 'var(--primary-light)' }}>Touch</span></h1>
           <p className="section-subtitle" style={{ margin: '0 auto', marginBottom: '30px' }}>Have a question or need help finding a property? We'd love to hear from you!</p>
           <div style={{ maxWidth: '500px', width: '100%', borderRadius: '20px', overflow: 'hidden', boxShadow: '0 15px 40px rgba(230, 126, 34, 0.3)', border: '2px solid var(--primary)', transition: 'transform 0.3s ease', cursor: 'pointer' }} onMouseOver={(e) => e.currentTarget.style.transform = 'scale(1.02)'} onMouseOut={(e) => e.currentTarget.style.transform = 'scale(1)'}>
-            <img src="/images/handshake_house.gif" alt="Business Handshake Animation" style={{ width: '100%', display: 'block', mixBlendMode: 'multiply' }} />
+            <img src="/images/buying_house.gif" alt="People Buying Home Animation" style={{ width: '100%', display: 'block', mixBlendMode: 'multiply' }} />
           </div>
         </div>
       </section>
