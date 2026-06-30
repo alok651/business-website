@@ -60,7 +60,7 @@ const carouselSlides = [
 
 const services = [
   { icon: '🏠', title: 'Room Rentals', desc: 'Single and shared rooms with modern amenities for students and professionals.' },
-  { icon: '🏢', title: 'Flat Rentals', desc: '1BHK, 2BHK, and 3BHK furnished and unfurnished flats for families.' },
+  { icon: '🏢', title: 'Flat Rentals', desc: '1BHK, 2BHK, and 3BHK furnished, semi-furnished, and unfurnished flats for families.' },
   { icon: '🏪', title: 'Shop Spaces', desc: 'Prime commercial spaces in busy market areas for your business.' },
   { icon: '🏛️', title: 'Office Spaces', desc: 'Modern office spaces with all utilities for startups and companies.' },
   { icon: '🛏️', title: 'PG Accommodation', desc: 'Fully managed paying guest accommodation with meals included.' },
