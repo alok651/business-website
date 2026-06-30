@@ -44,11 +44,11 @@ export default function Contact() {
             <div>
               <div className="glass-card contact-info-card">
                 <div className="icon">📍</div>
-                <div><h4>Visit Us</h4><p>Ranjan Path, In front of Gyan Niketan School<br />Danapur, Gola Road, Patna, Bihar - 801503</p></div>
+                <div><h4>Visit Us</h4><p>Ranjan path lane no.7 near gyan Niketan school<br />Danapur, Gola Road, Patna, Bihar - 801503</p></div>
               </div>
               <div className="glass-card contact-info-card">
                 <div className="icon">📞</div>
-                <div><h4>Call / WhatsApp</h4><p>+91 78708 54790 (Call)<br />+91 82528 78700 (WhatsApp)</p></div>
+                <div><h4>Call / WhatsApp</h4><p>+91 82528 78700</p></div>
               </div>
               <div className="glass-card contact-info-card">
                 <div className="icon">✉️</div>

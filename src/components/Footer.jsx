@@ -37,9 +37,9 @@ export default function Footer() {
           </div>
           <div className="footer-col">
             <h4>Contact Info</h4>
-            <a href="#">📍 Ranjan Path, In front of Gyan Niketan School, Danapur, Gola Road, Patna - 801503</a>
-            <a href="tel:+917870854790">📞 +91 78708 54790</a>
-            <a href="https://wa.me/918252878700" target="_blank" rel="noreferrer">💬 +91 82528 78700 (WhatsApp)</a>
+            <a href="#">📍 Ranjan path lane no.7 near gyan Niketan school, Danapur, Gola Road, Patna - 801503</a>
+            <a href="tel:+918252878700">📞 +91 82528 78700</a>
+            <a href="https://wa.me/918252878700" target="_blank" rel="noreferrer">💬 WhatsApp Us</a>
             <a href="mailto:ajay24519@gmail.com">✉️ ajay24519@gmail.com</a>
             <a href="#">👤 Ajay Kumar</a>
           </div>
