@@ -28,9 +28,10 @@ export default function Footer() {
           </div>
           <div className="footer-col">
             <h4>Property Types</h4>
-            <a href="#">Rooms</a>
-            <a href="#">1 BHK Flats</a>
-            <a href="#">2 BHK Flats</a>
+            <a href="#">House</a>
+            <a href="#">Apartments</a>
+            <a href="#">Semi-Furnished</a>
+            <a href="#">Fully-Furnished</a>
             <a href="#">Shops</a>
             <a href="#">Offices</a>
             <a href="#">PG Accommodation</a>
